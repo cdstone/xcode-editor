@@ -190,6 +190,10 @@
     {
         searchPaths = [NSMutableArray arrayWithCapacity:2];
     }
+    if ([searchPaths isKindOfClass:[NSString class]])
+    {
+        searchPaths = [NSMutableArray arrayWithObject:searchPaths];
+    }
     if (![searchPaths containsObject:@"$(inherited)"])
     {
         [searchPaths addObject:@"$(inherited)"];
@@ -203,7 +207,7 @@
     id flags = [buildSettings objectForKey:@"OTHER_LDFLAGS"];
     if (flags == nil)
     {
-        flags = [NSMutableArray arrayWithCapacity:3];
+        flags = [NSMutableArray arrayWithCapacity:4];
     }
     if ([flags isKindOfClass:[NSString class]])
     {
@@ -212,7 +216,10 @@
 
     NSMutableArray *lflags = [flags mutableCopy];
     
-    
+    if (![lflags containsObject:@"$(inherited)"])
+    {
+        [lflags addObject:@"$(inherited)"];
+    }
     if (![lflags containsObject:@"-force_load"])
     {
         [lflags addObject:@"-force_load"];

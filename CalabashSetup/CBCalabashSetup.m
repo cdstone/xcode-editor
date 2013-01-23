@@ -32,42 +32,53 @@
     }
     else
     {
+        NSDictionary *env = [[NSProcessInfo processInfo]environment];
+        NSString *defaultTargetName = [env objectForKey:@"TARGET"];
+        if (!defaultTargetName)
+        {
+            defaultTargetName = defaultProjectName;
+        }
         for (Target *t in targets)
         {
-            if ([t.name isEqualToString:defaultProjectName])
+            if ([t.name isEqualToString:defaultTargetName])
             {
                 defaultTarget = t;
             }
-        }     
-        info(@"Found several targets. Please enter name of target to duplicate.",^{
-            if (defaultTarget)
-            {
-                OUT(@"Default target: %@. Just hit <Enter> to select default.",defaultTarget.name);
-            }
-            for (Target *t in targets)
-            {
-                OUT(@"%@",t.name);
-            }   
-            
-            NSString *inputString = inputline();
-            OUT(@"input: %@",inputString);
-            if (defaultTarget && [inputString length] == 0)
-            {
-                OUT(@"Selecting default target (%@)", defaultTarget.name);
-            }
-            else 
-            {
-                defaultTarget = nil;
+        }
+        
+        if (![env objectForKey:@"TARGET"])
+        {
+            info(@"Found several targets. Please enter name of target to duplicate.",^{
+                if (defaultTarget)
+                {
+                    OUT(@"Default target: %@. Just hit <Enter> to select default.",defaultTarget.name);
+                }
                 for (Target *t in targets)
                 {
-                    if ([t.name isEqualToString:inputString])
-                    {
-                        defaultTarget = t;
-                        break;
-                    }    
+                    OUT(@"%@",t.name);
                 }
-            }                        
-        });
+                
+                NSString *inputString = inputline();
+                OUT(@"input: %@",inputString);
+                if (defaultTarget && [inputString length] == 0)
+                {
+                    OUT(@"Selecting default target (%@)", defaultTarget.name);
+                }
+                else
+                {
+                    defaultTarget = nil;
+                    for (Target *t in targets)
+                    {
+                        if ([t.name isEqualToString:inputString])
+                        {
+                            defaultTarget = t;
+                            break;
+                        }    
+                    }
+                }                        
+            });
+        
+        }
     }
     
     if (defaultTarget==nil) 

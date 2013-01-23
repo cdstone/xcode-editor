@@ -35,21 +35,21 @@
 		6BE0AAF81505D7C4004C27DA /* ESA.Sales.Foobar.xib in Copy Test Resources to /tmp */ = {isa = PBXBuildFile; fileRef = 6BE4B285147E6B610059E45C /* ESA.Sales.Foobar.xib */; };
 		6BE4B285147E6B610059E451 /* expanz-iOS-SDK.zip in Resources */ = {isa = PBXBuildFile; fileRef = 6BE4B285147E6B610059E450 /* expanz-iOS-SDK.zip */; };
 		6BE4B285147E6B610059E45D /* ESA.Sales.Foobar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BE4B285147E6B610059E45C /* ESA.Sales.Foobar.xib */; };
-		B1BEA5CE1532076300FB1BC2 /* xcode_FrameworkDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE4B285147E6B610059E45E /* xcode_FrameworkDefinition.m */; };
-		B1BEA5CF1532076300FB1BC2 /* XcodeSourceFileType.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AD02814F8A3AC00BCFE81 /* XcodeSourceFileType.m */; };
-		B1BEA5D01532076300FB1BC2 /* XcodeMemberType.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AD02A14F8A3AC00BCFE81 /* XcodeMemberType.m */; };
-		B1BEA5D11532076300FB1BC2 /* xcode_XibDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE4B285147E6B610059E457 /* xcode_XibDefinition.m */; };
-		B1BEA5D21532076300FB1BC2 /* xcode_Target.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AD02614F8A3AC00BCFE81 /* xcode_Target.m */; };
-		B1BEA5D31532076300FB1BC2 /* xcode_SourceFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AD01C14F8A3AC00BCFE81 /* xcode_SourceFile.m */; };
-		B1BEA5D41532076300FB1BC2 /* xcode_Project.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AD02414F8A3AC00BCFE81 /* xcode_Project.m */; };
-		B1BEA5D51532076300FB1BC2 /* xcode_KeyBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AD02214F8A3AC00BCFE81 /* xcode_KeyBuilder.m */; };
-		B1BEA5D61532076300FB1BC2 /* xcode_Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AD02014F8A3AC00BCFE81 /* xcode_Group.m */; };
-		B1BEA5D71532076300FB1BC2 /* xcode_FileWriteQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AD01E14F8A3AC00BCFE81 /* xcode_FileWriteQueue.m */; };
-		B1BEA5D81532076300FB1BC2 /* xcode_ClassDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AD01A14F8A3AC00BCFE81 /* xcode_ClassDefinition.m */; };
+		B1EA6DF7162AE43C00ED5C49 /* xcode_FrameworkDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE4B285147E6B610059E45E /* xcode_FrameworkDefinition.m */; };
+		B1EA6DF8162AE43C00ED5C49 /* XcodeSourceFileType.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AD02814F8A3AC00BCFE81 /* XcodeSourceFileType.m */; };
+		B1EA6DF9162AE43C00ED5C49 /* XcodeMemberType.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AD02A14F8A3AC00BCFE81 /* XcodeMemberType.m */; };
+		B1EA6DFA162AE43C00ED5C49 /* xcode_XibDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE4B285147E6B610059E457 /* xcode_XibDefinition.m */; };
+		B1EA6DFB162AE43C00ED5C49 /* xcode_Target.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AD02614F8A3AC00BCFE81 /* xcode_Target.m */; };
+		B1EA6DFC162AE43C00ED5C49 /* xcode_SourceFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AD01C14F8A3AC00BCFE81 /* xcode_SourceFile.m */; };
+		B1EA6DFD162AE43C00ED5C49 /* xcode_Project.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AD02414F8A3AC00BCFE81 /* xcode_Project.m */; };
+		B1EA6DFE162AE43C00ED5C49 /* xcode_KeyBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AD02214F8A3AC00BCFE81 /* xcode_KeyBuilder.m */; };
+		B1EA6DFF162AE43C00ED5C49 /* xcode_Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AD02014F8A3AC00BCFE81 /* xcode_Group.m */; };
+		B1EA6E00162AE43C00ED5C49 /* xcode_FileWriteQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AD01E14F8A3AC00BCFE81 /* xcode_FileWriteQueue.m */; };
+		B1EA6E01162AE43C00ED5C49 /* xcode_ClassDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3AD01A14F8A3AC00BCFE81 /* xcode_ClassDefinition.m */; };
+		B1EA6E02162AE43C00ED5C49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F1628F152D5EEE00F6BAC7 /* main.m */; };
+		B1EA6E03162AE43C00ED5C49 /* CBCalabashSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F162F4152D7FF900F6BAC7 /* CBCalabashSetup.m */; };
 		B1F1628D152D5EEE00F6BAC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC1018B1477A42F0055CF03 /* Foundation.framework */; };
-		B1F16290152D5EEE00F6BAC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F1628F152D5EEE00F6BAC7 /* main.m */; };
 		B1F16294152D5EEE00F6BAC7 /* CalabashSetup.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B1F16293152D5EEE00F6BAC7 /* CalabashSetup.1 */; };
-		B1F162F5152D7FF900F6BAC7 /* CBCalabashSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F162F4152D7FF900F6BAC7 /* CBCalabashSetup.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -537,19 +537,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1F16290152D5EEE00F6BAC7 /* main.m in Sources */,
-				B1F162F5152D7FF900F6BAC7 /* CBCalabashSetup.m in Sources */,
-				B1BEA5CE1532076300FB1BC2 /* xcode_FrameworkDefinition.m in Sources */,
-				B1BEA5CF1532076300FB1BC2 /* XcodeSourceFileType.m in Sources */,
-				B1BEA5D01532076300FB1BC2 /* XcodeMemberType.m in Sources */,
-				B1BEA5D11532076300FB1BC2 /* xcode_XibDefinition.m in Sources */,
-				B1BEA5D21532076300FB1BC2 /* xcode_Target.m in Sources */,
-				B1BEA5D31532076300FB1BC2 /* xcode_SourceFile.m in Sources */,
-				B1BEA5D41532076300FB1BC2 /* xcode_Project.m in Sources */,
-				B1BEA5D51532076300FB1BC2 /* xcode_KeyBuilder.m in Sources */,
-				B1BEA5D61532076300FB1BC2 /* xcode_Group.m in Sources */,
-				B1BEA5D71532076300FB1BC2 /* xcode_FileWriteQueue.m in Sources */,
-				B1BEA5D81532076300FB1BC2 /* xcode_ClassDefinition.m in Sources */,
+				B1EA6DF7162AE43C00ED5C49 /* xcode_FrameworkDefinition.m in Sources */,
+				B1EA6DF8162AE43C00ED5C49 /* XcodeSourceFileType.m in Sources */,
+				B1EA6DF9162AE43C00ED5C49 /* XcodeMemberType.m in Sources */,
+				B1EA6DFA162AE43C00ED5C49 /* xcode_XibDefinition.m in Sources */,
+				B1EA6DFB162AE43C00ED5C49 /* xcode_Target.m in Sources */,
+				B1EA6DFC162AE43C00ED5C49 /* xcode_SourceFile.m in Sources */,
+				B1EA6DFD162AE43C00ED5C49 /* xcode_Project.m in Sources */,
+				B1EA6DFE162AE43C00ED5C49 /* xcode_KeyBuilder.m in Sources */,
+				B1EA6DFF162AE43C00ED5C49 /* xcode_Group.m in Sources */,
+				B1EA6E00162AE43C00ED5C49 /* xcode_FileWriteQueue.m in Sources */,
+				B1EA6E01162AE43C00ED5C49 /* xcode_ClassDefinition.m in Sources */,
+				B1EA6E02162AE43C00ED5C49 /* main.m in Sources */,
+				B1EA6E03162AE43C00ED5C49 /* CBCalabashSetup.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -727,6 +727,7 @@
 		B1F16295152D5EEE00F6BAC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -736,31 +737,38 @@
 					"$(inherited)",
 					LOGGING_LEVEL_DEBUG,
 				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/Source/Main";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Dependencies/Libraries\"",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
 		B1F16296152D5EEE00F6BAC7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CalabashSetup/CalabashSetup-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = LOGGING_LEVEL_INFO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/Source/Main";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Dependencies/Libraries\"",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
