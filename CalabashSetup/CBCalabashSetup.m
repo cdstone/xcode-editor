@@ -114,12 +114,19 @@
     }
     NSArray *targets = [NSArray arrayWithObject:target];
     NSArray *targetMembers = [[target members] filteredArrayUsingPredicate:[NSPredicate predicateWithFormat:@"displayName == 'CFNetwork.framework'"]];
+    NSArray *ALtargetMembers = [[target members] filteredArrayUsingPredicate:[NSPredicate predicateWithFormat:@"displayName == 'AssetsLibrary.framework'"]];
     if ([targetMembers count] == 0)
     {
         OUT(@"Adding CFNetwork.framework to target %@",target.name);
-        FrameworkDefinition* frameworkDefinition = 
+        FrameworkDefinition* frameworkDefinition =
         [[FrameworkDefinition alloc] initWithFilePath:@"System/Library/Frameworks/CFNetwork.framework" copyToDestination:NO isSDK:YES];
         [group addFramework:frameworkDefinition toTargets:targets];
+    }
+    if ([ALtargetMembers count] == 0){
+        OUT(@"Adding AssetsLibrary.framework to target %@",target.name);
+        FrameworkDefinition* ALframeworkDefinition =
+        [[FrameworkDefinition alloc] initWithFilePath:@"System/Library/Frameworks/AssetsLibrary.framework" copyToDestination:NO isSDK:YES];
+        [group addFramework:ALframeworkDefinition toTargets:targets];
     }
         
     
